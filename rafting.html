@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAFTING SITE</title>
+    <link rel="stylesheet" href="rafting.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+<a href="index.html">Geri Dön</a>
+
+<h1>RAFTING SAYFASI</h1>
+    
+
+
+<script>
+
+
+$(document).ready(function() {
+
+    $('#menu ul li a').on('click', function(e) {
+    e.preventDefault();
+
+    var hedefSection = $($(this).attr('href'));
+    var offsetTop = hedefSection.offset().top - $('#menu').outerHeight();
+
+    $('html, body').animate({
+      scrollTop: offsetTop
+    }, 600);
+  });
+
+
+
+})
+
+
+
+</script>
+</body>
+</html>

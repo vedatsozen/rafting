@@ -5,7 +5,7 @@ body {
     padding: 0px;
     margin: auto;
     background-color: #FF3A20;
-
+    overflow: scroll;
 }
 
 body {
@@ -241,16 +241,8 @@ body {
 }
 
 #galeri > #fotoğraflar > img {
-    height:300px;
-    width:300px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#galeri > #fotoğraflar > img:hover {
-    transition: 400ms ease;
-    box-shadow: 0 0 10px black;
-    transform: translateY(-3px);
+    height:200px;
+    width:200px;
 }
 
 #galeri > h1 {
