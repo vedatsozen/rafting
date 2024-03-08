@@ -15,6 +15,9 @@
             <a href="#herosection">Anasayfa</a>
         </li>
         <li>
+            <a href="#hakkimizda">Hakkımızda</a>
+        </li>
+        <li>
             <a href="rafting.html" target="_self">Rafting</a>
         </li>
         <li>
@@ -49,7 +52,23 @@
             </div>
         </header>
 
-        
+        <section id="hakkimizda" class="section">
+
+        <div>
+                <h1>HAKKIMIZDA</h1>
+             <p>
+                Joker Rafting, Antalya'nın köprülü kanyonu ve Tazı Kanyonu'nda rafting turları düzenleyen önde gelen bir şirke?r.
+Müşterilerimize profesyonel bir hizmet sunuyoruz ve macera severleri unutulmaz anılarla buluşturuyoruz.
+Eşsiz rotalarımız ve yüksek kaliteli ekipmanlarımızla, rafting turlarımızı heyecan dolu bir macera haline geHriyoruz.
+Ayrıca, Jeep Safari, Double Impact, Buggy Ra)ing ve Big Kral turları gibi diğer macera turları da sunuyoruz.
+Joker Rafting, müşteri memnuniyeHne büyük önem verir ve her türlü ihtiyaca uygun özelleşHrilebilir turlar sunar. Her
+turumuzda güvenliği en üst düzeyde tutuyoruz ve deneyimli rehberlerimiz, müşterilerimize unutulmaz bir macera
+yaşatmak için ellerinden gelenin en iyisini yapıyorlar.
+Antalya'nın doğal güzelliklerini ve macera dolu turizm imkanlarını keşfetmek için, Joker Rafting ile tanışın ve
+hayaPnızın en unutulmaz anılarına imza aPn!
+             </p>
+            </div>
+        </section>
 
         <section id="section2" class="section">
 
@@ -73,19 +92,8 @@
 
         <section id="galeri">
             <h1>FOTOĞRAF GALERİSİ</h1>
-            <div id="fotoğraflar">
-                    <img src="images/galeri/foto1.jpg">
-                    <img src="images/galeri/foto1.jpg">
-                    <img src="images/galeri/foto1.jpg">
-                    <img src="images/galeri/foto1.jpg">
-                    <img src="images/galeri/foto1.jpg">
-                    <img src="images/galeri/foto1.jpg">
-                    <img src="images/galeri/foto1.jpg">
-                    <img src="images/galeri/foto1.jpg">
-                    <img src="images/galeri/foto1.jpg">
-                    <img src="images/galeri/foto1.jpg">
-                    <img src="images/galeri/foto1.jpg">
-                    <img src="images/galeri/foto1.jpg">
+            <div id="fotograflar">
+                   
             
                 
             </div>
@@ -174,7 +182,17 @@ function slideArkaplan() {
 
 setInterval(slideArkaplan,3000);
 
+let fotograflar = document.getElementById("fotograflar");
 
+
+for ( let i=1; i < 35; i++) {
+
+    let yeniResim = document.createElement("img");
+    yeniResim.classList.add("yeniresim");
+    yeniResim.src = "images/galeri/foto" + i + ".jpg";
+    fotograflar.appendChild(yeniResim);
+
+}
 
 </script>
 </body>
