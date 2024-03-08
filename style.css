@@ -352,6 +352,28 @@ body {
     border-radius: 5px;
 }
 
+.popupdiv {
+    height:90vh;
+    width:90vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 200;
+}
+
+.popupimage {
+    height: 100%;
+    width: 100%;
+}
+
+img.kapat {
+    position: absolute;
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+}
+
 #galeri > #fotograflar > .yeniresim:hover {
     transition: 400ms ease;
     box-shadow: 0 0 10px black;

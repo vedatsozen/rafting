@@ -199,6 +199,30 @@ for ( let i=1; i < 35; i++) {
 
 }
 
+$(".yeniresim").click(function() {
+
+let resimSrc = $(this).attr("src");
+let popupDiv = document.createElement("div");
+let popupImage = document.createElement("img");
+popupImage.src = resimSrc;
+document.body.appendChild(popupDiv);
+popupDiv.classList.add("popupdiv");
+popupImage.classList.add("popupimage");
+popupDiv.appendChild(popupImage);
+
+let kapat = document.createElement("img");
+kapat.src = "images/kapat.png";
+kapat.classList.add("kapat");
+
+popupDiv.appendChild(kapat);
+
+$(document).ready(function () {
+        $(".kapat").click(function () {
+            $(this).parent(".popupdiv").hide();
+        });
+    });
+})
+
 </script>
 </body>
 </html>
