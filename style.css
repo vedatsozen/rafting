@@ -74,13 +74,19 @@ body {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.2);
     border-radius: 5px;
 }
 
-#sosyalmedya > img {
-    height:35px;
-    width: 35px;
+#sosyalmedya > a > img {
+    height:30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#sosyalmedya > a > img:hover {
+    transform: scale(1.1);
+    transition: 300ms ease;
 }
 
 #menu {
