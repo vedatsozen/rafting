@@ -9,34 +9,50 @@
 </head>
 <body>
 
-<a href="index.html">Geri Dön</a>
+  <nav id="menu">
+    <ul>
+        <li>
+            <a href="index.html">Anasayfa</a>
+        </li>
+    </ul>
+</nav>
 
-<h1>RAFTING SAYFASI</h1>
+<aside id="sosyalmedya">
+    <img id="instagram" src="images/instagram.png">
+    <img id="facebook" src="images/facebook.png">
+    <img id="whatsapp" src="images/whatsapp.png">
+</aside>
+
+<section id="rafting">
+
+<h1 id="rafting">RAFTING SAYFASI</h1>  
+
+<div id="cards">
+
+<div>
+  <img src="images/raftinghero.jpg">
+  <h3>uauauaua</h3>
+</div>
+
+<div>
+  <img src="images/raftinghero.jpg">
+  <h3>uauauaua</h3>
+</div>
+
+<div>
+  <img src="images/raftinghero.jpg">
+  <h3>uauauaua</h3>
+</div>
+
+<div>
+  <img src="images/raftinghero.jpg">
+  <h3>uauauaua</h3>
+</div>
+
+</div>
+
+</section>
+
     
-
-
-<script>
-
-
-$(document).ready(function() {
-
-    $('#menu ul li a').on('click', function(e) {
-    e.preventDefault();
-
-    var hedefSection = $($(this).attr('href'));
-    var offsetTop = hedefSection.offset().top - $('#menu').outerHeight();
-
-    $('html, body').animate({
-      scrollTop: offsetTop
-    }, 600);
-  });
-
-
-
-})
-
-
-
-</script>
 </body>
 </html>

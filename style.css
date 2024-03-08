@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+#ok {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height:40px;
+    width:40px;
+    cursor: pointer;
+}
+
+#ok:hover {
+    transform: scale(1.1);
+    transition: 300ms ease;
+}
+
+#ok:active {
+    transform: scale(0.9);
+}
+
 body {
     text-align: center;
     padding: 0px;
@@ -70,7 +88,7 @@ body {
     top: 0;
     height:60px;
     width: 100%;
-    background-color:rgba(0,0,0,0.7);
+    background-color:rgba(0,0,0,0.9);
     padding: 0px;
 }
 
@@ -98,7 +116,7 @@ body {
 }
 
 #menu > ul > li > a:hover {
-    background-color:#FF3A20;
+    color:#FF3A20;
     transition: 400ms ease-in-out;
 }
 
@@ -127,10 +145,12 @@ body {
 #herosection > div > h1 {
     margin: auto;
     margin-top: 100px;
-    font-size:40px;
+    font-size:60px;
+    letter-spacing: 5px;
     background-color: rgba(0,0,0,0.5);
     color: white;
-    width: 80%;
+    width:fit-content;
+    padding: 5px 10px;
 }
 
 #herosection > div > p {
@@ -229,6 +249,7 @@ body {
 }
 
 #galeri > #fotoğraflar {
+    margin: auto;
     height: fit-content;
     width:100%;
     padding:20px;
@@ -255,8 +276,39 @@ body {
 
 #galeri > h1 {
     margin: auto;
-    margin-top: 100px;
+    margin-top:40px !important;
     font-size:40px;
     color: white;
     width: 80%;
+}
+
+footer#footer {
+    height:100vh;
+    width: 100%;
+    padding: 5px;
+    width: 100%;
+    background-color:#FF3A20;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer > div {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F1FEC6;
+}
+
+#footer > #haritadiv > iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#footer > #iletisimdiv > div > h2 {
+    font-size: 40px;
+    letter-spacing: 4px;
 }
