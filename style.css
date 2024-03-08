@@ -159,7 +159,7 @@ body {
 }
 
 .section {
-    border-bottom: 2px solid white;
+    border: 2px solid white;
 }
 
 
@@ -357,12 +357,22 @@ span {
 }
 
 #tazikanyonu > div > ul {
+    margin: auto;
     list-style: none;
     padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
+}
+
+#tazikanyonu > div > ul > li {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-align: justify;
 }
 
 #tazikanyonu > div > img {
