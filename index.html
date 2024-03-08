@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RAFTING SITE</title>
+    <title>Antalya Rafting | Köprülü Kanyon | Tazı Kanyonu | Joker Rafting</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <meta name="description" content="Joker Rafting, Antalya'nın köprülü kanyonu ve Tazı Kanyonu'nda rafting turları düzenleyen önde
@@ -748,6 +748,24 @@ $(".jeepandraftingaltsayfa").hide();
 $("#bigkral2").show();
 
 })
+
+// Başlık dizini
+var basliklar = [
+            "Antalya Rafting | Köprülü Kanyon | Tazı Kanyonu | Joker Rafting",
+            "Tazı Kanyonu ve Köprülü Kanyon Rafting Turu | Joker Rafting",
+            "Antalya Rafting | Köprülü Kanyon | Tazı Kanyonu | Joker Rafting",
+            "Antalya Jeep Safari | Toros Dağları Eteklerinde Nostaljik Jeeplerle Adrenalin Dolu Macera Turu | Joker Rafting",
+            "Antalya Double Impact Turu | Köprülü Kanyon | Joker Rafting",
+            "Antalya Buggy Rafting | İki Macerayı Bir Arada Deneyimleyin | Joker Rafting",
+            "Big Kral Korsan Teknesi | Alanya Turu | Joker Rafting"
+        ];
+
+        // Rastgele bir başlık seçme
+        var randomIndex = Math.floor(Math.random() * basliklar.length);
+        var yeniBaslik = basliklar[randomIndex];
+
+        // Sayfa yüklendiğinde başlığı değiştirme
+        document.title = yeniBaslik;
 </script>
 </body>
 </html>
