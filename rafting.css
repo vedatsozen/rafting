@@ -123,12 +123,24 @@ h1#rafting {
     
 }
 
-section > p {
-    column-count: 5;
-    font-size: 14px;
+section#rafting > p {
+   
+    margin: auto;
+    margin-top:20px;
+    font-size: 15px;
     color: white;
-    text-align: justify;
+    text-align: center;
     width: 80vw;
+    line-height: 30px;
+}
+
+a#rafting {
+    display: block;
+    margin: auto;
+    margin-top: 20px !important;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
 }
 
 #cards {
