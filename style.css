@@ -158,6 +158,10 @@ body {
 
 }
 
+.section {
+    border-bottom: 2px solid white;
+}
+
 
 #herosection {
     margin: auto;
@@ -244,6 +248,56 @@ body {
     text-align: justify;
 }
 
+#rafting {
+    padding: 10px;
+}
+
+#rafting > div {
+    margin: auto;
+}
+
+#rafting > div > h1 {
+    margin: auto;
+    margin-top:20px;
+    font-size:40px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+#rafting > div > p {
+    margin: auto;
+    margin-top:20px;
+    font-size:16px;
+    letter-spacing: 4px;
+    color: white;
+    width:90%;
+    text-align: justify;
+}
+
+#rafting > div > ul {
+    margin: auto;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+}
+
+#rafting > div > ul > li {
+    display: inline-block;
+    color: white;
+    text-align: justify;
+}
+
+span {
+    background-color: var(--blue2);
+    color: white;
+    padding:1px 5px;
+}
+
 
 #section2 {
     margin: auto;
@@ -284,37 +338,47 @@ body {
     width: 80%;
 }
 
-#section3 {
+#tazikanyonu {
     margin: auto;
-    height:100vh;
+    height:fit-content;
     width: 100%;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
     align-items: center;
+
   
 }
 
-#section3 > div {
+#tazikanyonu > div {
     height: 100%;
-    width: 50%;
+    width:100%;
     padding:20px;
 }
 
-#section3 > div > img {
+#tazikanyonu > div > ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tazikanyonu > div > img {
     height: 100%;
     width: 100%;
 }
 
-#section3 > div > h1 {
+#tazikanyonu > div > h1 {
     margin: auto;
-    margin-top: 100px;
+    margin-top:20px;
     font-size:40px;
     color: white;
     width: 80%;
 }
 
-#section3 > div > p {
+#tazikanyonu > div > p {
     margin: auto;
     margin-top: 10px;
     font-size:15px;
