@@ -9,9 +9,10 @@
     position: fixed;
     bottom: 10px;
     right: 10px;
-    height:50px;
-    width:50px;
+    height:40px;
+    width:40px;
     cursor: pointer;
+
 }
 
 #ok:hover {
@@ -162,7 +163,7 @@ body {
 }
 
 .section {
-    border-bottom:1px dashed #F1FEC6;
+    box-shadow: 0 0 2px #041E42;
     padding: 10px;
 }
 
@@ -588,6 +589,20 @@ footer#footer {
     justify-content: center;
     align-items: center;
     color:#F1FEC6;
+    
+}
+
+#footer > #iletisimdiv {
+    height:100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: var(--blue2);
+    color:#F1FEC6;
+
+    
 }
 
 #footer > #haritadiv > iframe {
@@ -595,7 +610,52 @@ footer#footer {
     width: 100%;
 }
 
+#footer > #iletisimdiv > div {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+}
+
 #footer > #iletisimdiv > div > h2 {
-    font-size: 40px;
+    margin: auto;
+    font-size:40px;
     letter-spacing: 4px;
+}
+
+#footer > #iletisimdiv > div > p {
+    font-size:12px;
+    letter-spacing: 4px;
+    margin: auto;
+
+}
+
+span.iletisim {
+    color: var(--blue1);
+}
+
+#footersosyalmedya {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+#footersosyalmedya > a > img {
+    height:30px;
+    width:30px;
+    cursor: pointer;
+}
+
+#footersosyalmedya > a > img:hover {
+    transform: scale(1.1);
+    transition: 300ms ease;
 }
