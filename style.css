@@ -344,7 +344,10 @@ span {
 
 #jeepandrafting > #tours > div > h3 {
 font-size:25px !important;
-color:#041E42;
+background-color: #1F75FE;
+color:#F1FEC6;
+padding: 5px;
+border-radius: 5px;
 }
 
 .jeepandraftingaltsayfa {
@@ -380,6 +383,30 @@ color:#041E42;
     font-size: 15px;
     letter-spacing: 4px;
     color: white;
+}
+
+#jeepandsafari1 {
+    background-image: url("images/galeri/foto6.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#doubleimpact1 {
+    background-image: url("images/galeri/foto6.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#buggyrafting1 {
+    background-image: url("images/galeri/foto6.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#bigkral1 {
+    background-image: url("images/galeri/foto6.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 #tazikanyonu {
