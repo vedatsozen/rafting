@@ -41,7 +41,8 @@
 <section id="sections">
 
         <header id="herosection" class="section">
-            <div>
+          
+            <div id="herocontent">
             <h1>JOKER RAFTING</h1>
             <p>Arkadaşlarınızla haftasonu güzel vakit geçirmek için rafting parkurlarımızı denemek için sizleri bekliyoruz</p>
             </div>
@@ -155,6 +156,20 @@ function goTop() {
       scrollTop: offsetTop
     },500);
 }
+
+let slides = ["raftinghero.jpg", "section2.jpg", "section3.jpg"];
+let i = 0;
+let herosection = document.getElementById("herosection");
+
+herosection.style.backgroundSize = "100% 100%";
+herosection.style.backgroundRepeat = "no-repeat";
+
+function slideArkaplan() {
+    herosection.style.backgroundImage = "url('images/" + slides[i] + "')"; // Burada images/ klasörünün yolunu belirtin
+    i = (i + 1) % slides.length;
+}
+
+setInterval(slideArkaplan,3000);
 
 
 

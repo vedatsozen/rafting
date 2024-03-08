@@ -141,25 +141,39 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 500ms ease;
 }
 
-#herosection > div > h1 {
+
+#herosection > div {
+    
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#herosection > div#herocontent > h1 {
     margin: auto;
-    margin-top: 100px;
-    font-size:60px;
+    font-size:80px;
     letter-spacing: 5px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.1);
     color: white;
-    width:fit-content;
+    width: fit-content;
     padding: 5px 10px;
 }
 
-#herosection > div > p {
+#herosection > div#herocontent > p {
     margin: auto;
     margin-top: 10px;
-    font-size:20px;
-    background-color: rgba(0,0,0,0.5);
-    color: white;
+    font-size:18px;
+    letter-spacing: 4px;
+    height:fit-content;
+    background-color:rgba(0,0,0,0.4);
+    color:#F1FEC6;
+    width:80vw;
+    padding: 10px 20px;
+   
 }
 
 #section2 {
