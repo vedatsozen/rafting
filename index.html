@@ -51,7 +51,10 @@
           
             <div id="herocontent">
             <h1>JOKER RAFTING</h1>
-            <p>Arkadaşlarınızla haftasonu güzel vakit geçirmek için rafting parkurlarımızı denemek için sizleri bekliyoruz</p>
+            <p>Arkadaşlarınızla haftasonu güzel vakit geçirmek için rafting parkurlarımızı denemeye sizleri bekliyoruz. 
+                <br><br>
+                Lütfen iletişim numaralarımızdan bizlere ulaşın.
+            </p>
             </div>
         </header>
 
@@ -476,7 +479,7 @@ rehberlerimiz</span> bütün turlarda müşterilerimize güvenli bir ortamda raf
 doğanın güzelliğiyle birleşen <span>adrenalin dolu bir macera</span> yaşamanızı hedefliyoruz.
                 </p>
 
-          <h1>Tur Programı</h1>
+          <p class="turprogrami">Tur Programı</p>
           
           <ul>
             <li>
@@ -617,7 +620,7 @@ function goTop() {
     },500);
 }
 
-let slides = ["raftinghero.jpg", "section2.jpg", "section3.jpg"];
+let slides = ["foto1.jpg", "foto2.jpg", "foto3.jpg","foto4.jpg"];
 let i = 0;
 let herosection = document.getElementById("herosection");
 
@@ -625,7 +628,7 @@ herosection.style.backgroundSize = "100% 100%";
 herosection.style.backgroundRepeat = "no-repeat";
 
 function slideArkaplan() {
-    herosection.style.backgroundImage = "url('images/" + slides[i] + "')"; // Burada images/ klasörünün yolunu belirtin
+    herosection.style.backgroundImage = "url('images/slides/" + slides[i] + "')"; // Burada images/ klasörünün yolunu belirtin
     i = (i + 1) % slides.length;
 }
 

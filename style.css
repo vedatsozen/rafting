@@ -182,7 +182,7 @@ body {
 }
 
 
-#herosection > div {
+#herosection > div#herocontent {
     
     position:absolute;
     top: 50%;
@@ -192,7 +192,7 @@ body {
 
 #herosection > div#herocontent > h1 {
     margin: auto;
-    font-size:80px;
+    font-size:90px;
     letter-spacing: 5px;
     background-color: rgba(0,0,0,0.1);
     color: white;
@@ -203,12 +203,12 @@ body {
 #herosection > div#herocontent > p {
     margin: auto;
     margin-top: 10px;
-    font-size:18px;
+    font-size:14px;
     letter-spacing: 4px;
     height:fit-content;
     background-color:rgba(0,0,0,0.4);
     color:#F1FEC6;
-    width:80vw;
+    width:90vw;
     padding: 10px 20px;
    
 }
