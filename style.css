@@ -368,6 +368,20 @@ color:#041E42;
     text-align: justify;
 }
 
+.jeepandraftingaltsayfa > ul {
+    list-style: none;
+    padding: 0px;
+    margin: auto;
+    width: 80%;
+}
+
+.jeepandraftingaltsayfa > ul > li {
+    display: block;
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: white;
+}
+
 #tazikanyonu {
     margin: auto;
     height:fit-content;
