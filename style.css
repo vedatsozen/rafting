@@ -112,7 +112,7 @@ body {
     top: 0;
     height:80px;
     width: 100%;
-    background-color:rgba(0,0,0,0.7);
+    background-color:var(--blue1);
     padding: 0px;
     z-index: 100;
     box-shadow: 0 0 10px black;
@@ -145,7 +145,7 @@ body {
 }
 
 #menu > ul > li > a:hover {
-    color:var(--blue1);
+    color:var(--blue2);
     transition: 400ms ease-in-out;
 }
 
