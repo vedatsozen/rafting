@@ -23,6 +23,19 @@
     transform: scale(0.9);
 }
 
+#logo {
+    position: fixed;
+    top:5px;
+    left:20px;
+    height:70px;
+    width:70px;
+    z-index:150;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     text-align: center;
     padding: 0px;
@@ -97,12 +110,15 @@ body {
 #menu {
     position: fixed;
     top: 0;
-    height:60px;
+    height:80px;
     width: 100%;
-    background-color:rgba(0,0,0,0.9);
+    background-color:rgba(0,0,0,0.7);
     padding: 0px;
     z-index: 100;
     box-shadow: 0 0 10px black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
 #menu > ul {
@@ -112,7 +128,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap:5px;
 }
 
 #menu > ul > li {
@@ -121,7 +137,7 @@ body {
 
 #menu > ul > li > a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 5px;
     color: #F1FEC6;
     padding: 5px 7px;
