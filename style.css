@@ -555,7 +555,7 @@ img.kapat {
     cursor: pointer;
     height:25px;
     width:25px;
-    border: 2px solid red;
+    border: 2px solid #F1FEC6;
     border-radius: 50%;
     padding:2px;
     box-sizing: content-box;
@@ -939,7 +939,6 @@ nav#slidingmenu > ul > li {
     display: flex;
     justify-content: center;
     align-items: center;
-    border:1px solid #F1FEC6;
     width:100%;
 }
 
@@ -953,7 +952,9 @@ nav#slidingmenu > ul > li > a {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: p;
+    cursor: pointer;
+    font-size:3vw;
+    letter-spacing:4px;
 }
 
 nav#slidingmenu > ul > li > a:hover {
@@ -970,4 +971,35 @@ nav#slidingmenu.openmenu {
     left: 0;
     transition: 400ms ease;
 }
+
+.section {
+    width: 100vw;
+    padding:2px;
+}
+.section > div > h1 {
+    
+    font-size: 4vw;
+    width:100%;
+}
+
+.section > div > p {
+
+    font-size: 4vw;
+    width:100%;
+    text-align: left ;
+}
+
+#jeepandrafting > h1 {
+    font-size:7vw;
+    color: white;
+}
+
+.jeepandraftingaltsayfa {
+    margin: auto;
+    margin-top: 20px;
+    width:90%;
+    padding: 15px 25px;
+    background-color:rgba(0,0,0,0.2);
+}
+
 }
