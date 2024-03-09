@@ -691,6 +691,11 @@ img#mobilelogo {
 
 nav#slidingmenu {
     display:none;
+    
+}
+
+nav#slidingmenu > ul {
+    display: none;
 }
 
 
@@ -959,6 +964,7 @@ nav#slidingmenu > ul > li > a#kapatli {
 }
 
 nav#slidingmenu.openmenu {
+    display: flex;
     left: 0vw;
     transition: 400ms ease;
 }
