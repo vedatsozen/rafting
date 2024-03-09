@@ -711,7 +711,7 @@ img#mobilelogo {
 }
 
 img#hamburgericon {
-    display: block;
+    display: block !important;
     position: fixed;
     top: 10px;
     right:10px;
