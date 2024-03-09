@@ -690,13 +690,16 @@ img#mobilelogo {
 }
 
 nav#slidingmenu {
-    display:none;
+    display:none ;
     
 }
 
-nav#slidingmenu > ul {
-    display: none;
+@media only screen and (min-width:600px) {
+    nav#slidingmenu {
+        display: none !important;
+    }
 }
+
 
 
 @media only screen and (max-width:600px) {
