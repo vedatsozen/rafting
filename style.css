@@ -694,12 +694,6 @@ nav#slidingmenu {
     
 }
 
-@media only screen and (min-width:600px) {
-    nav#slidingmenu {
-        display: none !important;
-    }
-}
-
 
 
 @media only screen and (max-width:600px) {
@@ -916,7 +910,7 @@ nav#slidingmenu {
     align-items: center;
     position: absolute;
     top:60px;
-    left:100vw;
+    left:-100vw;
     z-index:500;
     transition: 400ms ease;
 }
