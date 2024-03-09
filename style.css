@@ -802,7 +802,7 @@ footer#footer {
     height:100vh;
     width: 100%;
     padding: 5px;
-    width: 100%;
+    width: 100vw;
     background-color:var(--blue1);
     display: flex;
     flex-direction: column;
@@ -812,7 +812,7 @@ footer#footer {
 
 #footer > div {
     height: 100%;
-    width:100vw;
+    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -843,7 +843,7 @@ footer#footer {
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    gap:30px;
+    gap:20px;
 }
 
 #footer > #iletisimdiv > div > h2 {
