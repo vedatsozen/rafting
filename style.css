@@ -728,16 +728,7 @@ nav#slidingmenu {
     display: none !important;
 }
 
-img#hamburgericon {
-    display: block !important;
-    position: absolute;
-    top: 10px;
-    right:10px;
-    z-index:300;
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-}
+
 
 #herosection > div#herocontent > h1 {
     margin: auto;
@@ -901,6 +892,18 @@ p.codedby {
     font-size: 12px;
     letter-spacing: 2px;
     color: white;
+
+}
+
+img#hamburgericon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left:10px;
+    z-index:300;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
 }
 
 nav#slidingmenu {
@@ -912,7 +915,7 @@ nav#slidingmenu {
     align-items: center;
     position: absolute;
     top:60px;
-    right:-100vw;
+    left:-100vw;
     z-index:500;
     transition: 400ms ease;
 }
@@ -964,7 +967,7 @@ nav#slidingmenu > ul > li > a#kapatli {
 
 nav#slidingmenu.openmenu {
     display: flex;
-    left: 0vw;
+    left: 0;
     transition: 400ms ease;
 }
 }
