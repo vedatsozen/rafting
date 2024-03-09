@@ -45,6 +45,33 @@
 
 <img id="hamburgericon" src="images/hamburger.png">
 
+<nav id="slidingmenu">
+    <ul>
+     
+        <li>
+            <a href="#herosection" class="slidea">Anasayfa</a>
+        </li>
+        <li>
+            <a href="#hakkimizda" class="slidea">Hakkımızda</a>
+        </li>
+        <li>
+            <a href="#rafting" class="slidea">Rafting</a>
+        </li>
+        <li>
+            <a href="#jeepandrafting" class="slidea">Jeep and Rafting</a>
+        </li>
+        <li>
+            <a href="#tazikanyonu" class="slidea">Tazı Kanyonu</a>
+        </li>
+        <li>
+            <a href="#galeri" class="slidea">Galeri</a>
+        </li>
+        <li>
+            <a href="#footer" class="slidea">İletişim</a>
+        </li>
+    </ul>
+</nav>
+
 <nav id="menu">
 
     <img id="logo" src="images/logo.png">
@@ -770,6 +797,35 @@ var basliklar = [
 
         // Sayfa yüklendiğinde başlığı değiştirme
         document.title = yeniBaslik;
+
+
+let hamburgericon = document.getElementById("hamburgericon");
+let slidingmenu = document.getElementById("slidingmenu");
+hamburgericon.isclicked = false;
+
+hamburgericon.addEventListener("click", function() {
+  slidingmenu.classList.toggle("openmenu");
+
+  if (hamburgericon.isclicked) {
+    hamburgericon.src = "images/hamburger.png";
+  } else {
+    hamburgericon.src = "images/kapat.png";
+  }
+
+  hamburgericon.isclicked = !hamburgericon.isclicked; // Toggle the isclicked property
+});
+
+$(document).ready(function() {
+  $(".slidea").click(function() {
+    // Your code to navigate to the desired section goes here
+
+    // Close the menu
+    $("#slidingmenu").removeClass("openmenu");
+    $("#hamburgericon").attr("src", "images/hamburger.png");
+    $("#hamburgericon").isclicked = false;
+  });
+});
+
 </script>
 </body>
 </html>
