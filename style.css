@@ -910,7 +910,7 @@ nav#slidingmenu {
     align-items: center;
     position: absolute;
     top:60px;
-    left:-100vw;
+    right:-100vw;
     z-index:500;
     transition: 400ms ease;
 }
