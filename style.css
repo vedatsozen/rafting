@@ -349,6 +349,12 @@ span {
 #jeepandrafting > #tours > div:hover {
     box-shadow: 0 0 10px black;
     transition: 300ms ease;
+   
+}
+
+#jeepandrafting > #tours > div:active {
+    
+    transform: scale(0.95);
 }
 
 #jeepandrafting > #tours > div > h3 {
@@ -670,4 +676,212 @@ p.codedby {
     font-size: 12px;
     letter-spacing: 2px;
     color: white;
+}
+
+#hamburgericon {
+    display: none;
+}
+
+img#mobilelogo {
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+
+    body {
+        text-align: center;
+        padding: 0px;
+        margin: auto;
+        background-color: var(--blue1);
+    
+    }
+
+    img#mobilelogo {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translate(-50%);
+        height:20vw;
+        width:20vw;
+    }
+
+#menu {
+    display: none !important;
+}
+
+img#hamburgericon {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right:10px;
+    z-index:200;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+#herosection > div#herocontent > h1 {
+    margin: auto;
+    font-size:10vw;
+    letter-spacing: 10px;
+    background-color: transparent;
+    color:var(--blue1);
+    min-width:50vw;
+    width:fit-content;
+    padding: 5px 10px;
+    display: block;
+    font-family: var(--font2);
+}
+
+#herosection > div#herocontent > p {
+    margin: auto;
+    margin-top: 10px;
+    font-size:3vw;
+    letter-spacing: 4px;
+    height:fit-content;
+    background-color: rgba(0,0,0,0.4);
+    color:#F1FEC6;
+    width:80vw;
+    padding:5px;
+   
+}
+
+#jeepandrafting > #tours {
+    margin: auto;
+    margin-top: 0px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#jeepandrafting > #tours > div {
+    height:100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #F1FEC6;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#jeepandrafting > #tours > div:hover {
+    box-shadow: 0 0 10px black;
+    transition: 300ms ease;
+   
+}
+
+#jeepandrafting > #tours > div:active {
+    
+    transform: scale(0.95);
+}
+
+#jeepandrafting > #tours > div > h3 {
+font-size:15px !important;
+background-color: #1F75FE;
+color:#F1FEC6;
+padding: 5px;
+border-radius: 5px;
+}
+
+footer#footer {
+    height:100vh;
+    width: 100%;
+    padding: 5px;
+    width: 100%;
+    background-color:var(--blue1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer > div {
+    height: 100%;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F1FEC6;
+    
+}
+
+#footer > #iletisimdiv {
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: var(--blue2);
+    color:#F1FEC6;
+
+    
+}
+
+#footer > #haritadiv > iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#footer > #iletisimdiv > div {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+}
+
+#footer > #iletisimdiv > div > h2 {
+    margin: auto;
+    font-size:40px;
+    letter-spacing: 4px;
+}
+
+#footer > #iletisimdiv > div > p {
+    font-size:12px;
+    letter-spacing: 4px;
+    margin: auto;
+
+}
+
+span.iletisim {
+    color: var(--blue1);
+}
+
+#footersosyalmedya {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+#footersosyalmedya > a > img {
+    height:30px;
+    width:30px;
+    cursor: pointer;
+}
+
+#footersosyalmedya > a > img:hover {
+    transform: scale(1.1);
+    transition: 300ms ease;
+}
+
+p.codedby {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: white;
+}
 }
