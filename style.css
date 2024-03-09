@@ -679,11 +679,11 @@ p.codedby {
 }
 
 #hamburgericon {
-    display: none;
+    display: none !important;
 }
 
 img#mobilelogo {
-    display: none;
+    display: none !important;
 }
 
 @media only screen and (max-width:600px) {
