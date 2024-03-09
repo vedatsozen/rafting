@@ -703,6 +703,8 @@ nav#slidingmenu {
         padding: 0px !important;
         margin: auto;
         background-color: var(--blue1);
+        width: 100vw;
+        overflow-x: hidden;
         
     
     }
