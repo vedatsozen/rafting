@@ -1181,4 +1181,14 @@ img#mobilewhatsapp {
     }
 }
 
+#ok {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    height:40px;
+    width:40px;
+    cursor: pointer;
+
+}
+
 }
