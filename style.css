@@ -1076,4 +1076,13 @@ img#tazikanyonu {
     width:90% !important;
 }
 
+.yeniresim {
+    margin: auto;
+    margin-top: 10px;
+    height:300px;
+    width:300px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 }
