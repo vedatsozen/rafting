@@ -715,6 +715,10 @@ nav#slidingmenu {
     
 }
 
+#mobilewhatsapp {
+    display: none;
+}
+
 
 
 @media only screen and (max-width:600px) {
@@ -1095,6 +1099,7 @@ img#tazikanyonu {
     z-index: 200;
 }
 
+
 #sosyalmedya {
     display: none;
 }
@@ -1149,6 +1154,16 @@ span.iletisim {
 #footersosyalmedya > a > img:hover {
     transform: scale(1.1);
     transition: 300ms ease;
+}
+
+img#mobilewhatsapp {
+    display: block !important;
+    z-index: 100;
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+    height:13vw;
+    width:13vw;
 }
 
 }
