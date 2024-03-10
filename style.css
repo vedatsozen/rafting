@@ -18,7 +18,7 @@ img#raftingturu {
 }
 
 img#tazikanyonu {
-    height: 400px !important;
+    height: 400px;
     width:600px !important;
 }
 
@@ -1068,7 +1068,8 @@ p.turprogrami {
 
 img#tazikanyonu {
     margin: auto;
-    height: 400px !important;
+    margin-top: 20px;
+    height: 400px;
     width:90% !important;
 }
 
