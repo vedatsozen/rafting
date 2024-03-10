@@ -11,6 +11,7 @@ section > div > ul > li {
     font-optical-sizing: auto;
     font-style: normal;
 }
+
 img#raftingturu {
     height: 400px !important;
     width:600px !important;
@@ -26,6 +27,15 @@ p {
         font-family: "Inter", sans-serif !important;
         font-optical-sizing: auto;
         font-style: normal;
+}
+
+p.turprogrami {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+    color: #F1FEC6;
+    font-size: 30px !important;
+    text-align: center !important;
 }
 
 :root {
@@ -216,6 +226,7 @@ body {
 
 .section > p {
 
+       
         font-size: 13px;
         font-family: "Inter", sans-serif;
         font-optical-sizing: auto;
@@ -382,10 +393,6 @@ span {
   
 }
 
-
-
-
-
 #jeepandrafting > div > h3 {
 font-size:25px !important;
 background-color: #1F75FE;
@@ -404,6 +411,7 @@ border-radius: 5px;
 
 #jeepandrafting > div > p {
     margin: auto;
+    margin-top: 20px;
     color:#F1FEC6;
     font-size: 14px;
     letter-spacing: 4px;
@@ -440,7 +448,7 @@ border-radius: 5px;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    width:1100px;
+    width:90%;
   
 }
 
@@ -450,12 +458,7 @@ border-radius: 5px;
     width:33% !important;
 }
 
-p.turprogrami {
-    margin: auto;
-    color: #F1FEC6;
-    font-size: 30px !important;
-    text-align: center !important;
-}
+
 
 
 #tazikanyonu {
@@ -1022,6 +1025,45 @@ nav#slidingmenu.openmenu {
     width:90%;
     padding: 15px 25px;
     background-color:rgba(0,0,0,0.2);
+}
+
+#jeepandrafting > div > #jeepandraftingphotos {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width:90%;
+  
+}
+
+#jeepandrafting > div > #jeepandraftingphotos > img {
+    margin: auto;
+    height: 400px !important;
+    width:90% !important;
+}
+
+img#raftingturu {
+    height: 400px !important;
+    width:90% !important;
+}
+
+#jeepandrafting > div > p {
+    margin-top: 20px;
+}
+
+p.turprogrami {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+    color: #F1FEC6;
+    font-size:6vw !important;
+    text-align: center !important;
+}
+
+#galeri {
+    padding: 10px;
 }
 
 }
