@@ -749,7 +749,7 @@ nav#slidingmenu {
 
 #herosection > div#herocontent > h1 {
     margin: auto;
-    font-size:10vw;
+    font-size:2rem !important;
     letter-spacing: 10px;
     background-color: transparent;
     color:var(--blue1);
