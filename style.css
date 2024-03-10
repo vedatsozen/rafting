@@ -274,26 +274,30 @@ body {
     margin: auto;
     font-size:90px;
     letter-spacing: 10px;
-    background-color:rgba(0,0,0,0.1);
     color:var(--blue1);
-    min-width:50vw;
+    min-width:70vw;
     width:fit-content;
     padding: 5px 10px;
     display: block;
     font-family: var(--font2);
+    filter: drop-shadow(0 0 20px white);
 }
 
 #herosection > div#herocontent > p {
     margin: auto;
     margin-top: 10px;
-    font-size:14px;
+    font-size:16px;
     letter-spacing: 4px;
     height:fit-content;
-    background-color:rgba(0,0,0,0.8);
+    background-color: var(--blue1);
     color:#F1FEC6;
-    width:80vw;
+    width:fit-content;
     padding:5px;
     text-align: center;
+    display: block;
+    box-shadow: 0 0 10px var(--blue2);
+    border-radius: 5px;
+
    
 }
 
