@@ -1164,6 +1164,21 @@ img#mobilewhatsapp {
     right:10px;
     height:13vw;
     width:13vw;
+    animation: whatsappanimation 1000ms linear infinite;
+}
+
+@keyframes whatsappanimation {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 }
