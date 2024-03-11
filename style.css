@@ -26,12 +26,14 @@ img#tazikanyonu {
     width:600px !important;
 }
 
-p {
+p, li {
     font-size: 13px !important;
         font-family: "Inter", sans-serif !important;
         font-optical-sizing: auto;
         font-style: normal;
 }
+
+
 
 p.turprogrami {
     margin: auto;
@@ -52,7 +54,7 @@ p.turprogrami {
 #ok {
     position: fixed;
     bottom: 10px;
-    left: 10px;
+    right: 10px;
     height:40px;
     width:40px;
     cursor: pointer;
@@ -229,6 +231,11 @@ body {
 
 }
 
+h1.sectionbaslik {
+    font-size: 30px !important;
+    color: white !important;
+}
+
 .section > p {
 
        
@@ -246,9 +253,14 @@ body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-  
+    color: white !important;
 
 }
+
+.section > div > div > p {
+    color: white  !important;
+}
+
 
 
 
@@ -347,18 +359,52 @@ body {
 
 #rafting {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-#rafting > div {
+.subdiv {
     margin: auto;
+    width:90vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
 }
 
-#rafting > div > h1 {
+.subdiv2 {
+    margin: auto;
+    width:90vw;
+    padding:10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+#rafting > h1 {
     margin: auto;
     margin-top:20px;
     font-size:40px;
     letter-spacing: 4px;
     color: white;
+}
+
+#rafting > div> div > p {
+    margin: auto;
+    margin-top:20px;
+    font-size:14px;
+    letter-spacing: 4px;
+    color: white;
+    width:90%;
+    text-align: justify;
 }
 
 #rafting > div > p {
@@ -371,7 +417,7 @@ body {
     text-align: justify;
 }
 
-#rafting > div > ul {
+#rafting > div > div >  ul {
     margin: auto;
     list-style: square;
     padding: 0px;
@@ -383,7 +429,7 @@ body {
     width: 80%;
 }
 
-#rafting > div > ul > li {
+#rafting > div > div > ul > li {
     display:list-item;
     color: white;
     text-align: justify;
@@ -412,17 +458,17 @@ span {
     letter-spacing: 4px;
 }
 
-#jeepandrafting > div > p {
+#jeepandrafting > div > div > p {
     margin: auto;
     margin-top: 20px;
     color:#F1FEC6;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 4px;
     text-align: justify;
     width: 90%;
 }
 
-#jeepandrafting > div > ul {
+#jeepandrafting > div > div> ul {
   
     list-style:square !important;
     padding: 0px;
@@ -436,7 +482,7 @@ span {
 
 }
 
-#jeepandrafting > div > ul > li {
+#jeepandrafting > div > div> ul > li {
     margin: auto;
     display:list-item;
     font-size: 15px;
@@ -444,87 +490,66 @@ span {
     color: white;
 }
 
-#jeepandrafting > div > #jeepandraftingphotos {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    width:90%;
-  
-}
-
-#jeepandrafting > div > #jeepandraftingphotos > img {
-    margin: auto;
-    height: 400px !important;
-    width:33% !important;
-}
-
-
 
 
 #tazikanyonu {
     margin: auto;
     height:fit-content;
     width: 100%;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-    align-items: center;
 
   
 }
 
-#tazikanyonu > div {
-    height: 100%;
-    width:100%;
-    padding:5px;
-}
 
-#tazikanyonu > div > ul {
-    margin: auto;
-    list-style: square;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    width: 80%;
-}
-
-#tazikanyonu > div > ul > li {
-    display:list-item;
-    color: white;
-    font-size: 14px;
-    letter-spacing: 4px;
-    text-align: justify;
-   
-}
-
-#tazikanyonu > div > img {
-    height: 100%;
-    width: 100%;
-}
 
 #tazikanyonu > div > h1 {
     margin: auto;
-    margin-top:10px;
+    color:#F1FEC6;
     font-size:40px;
-    color: white;
-    width: 80%;
+    letter-spacing: 4px;
 }
 
-#tazikanyonu > div > p {
+#tazikanyonu > div > div > p {
     margin: auto;
-    margin-top: 10px;
-    font-size:15px;
-    color: white;
+    margin-top: 20px;
+    color:#F1FEC6;
+    font-size: 16px;
+    letter-spacing: 4px;
     text-align: justify;
-    width: 80%;
-   
+    width: 90%;
 }
+
+#tazikanyonu > div > div > ul {
+  
+    list-style:square !important;
+    padding: 0px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    border: 2PX SOLİD RED !important;
+
+}
+
+#tazikanyonu > div > div > ul > li {
+    margin: auto;
+    display:list-item;
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
 
 /* GALERİ DİVİNİN TASARIMI */
 
