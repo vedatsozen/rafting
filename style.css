@@ -1217,4 +1217,26 @@ img#mobilewhatsapp {
 
 }
 
+.subdiv {
+    margin: auto;
+    width:90vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.subdiv2 {
+    margin: auto;
+    width:90vw;
+    padding:10px;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;
+  
+}
+
 }
